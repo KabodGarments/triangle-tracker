@@ -1,4 +1,4 @@
-<script language="Javascript" type="text/javascript">
+
 
 /*  Key/Legend
 Var
@@ -37,19 +37,13 @@ sideA = parseInt(document.getegetElementById("input1").value);
 sideB = parseInt(document.getegetElementById("input2").value);
 sideC = parseInt(document.getegetElementById("input3").value);
 /* Side options */
-  if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA){
-    if (sideA == sideB && sideB == sideC) {
+  if ((sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) && (sideA == sideB && sideB == sideC)){
     alert("Equalateral");
-    }
-
-    if (sideA == sideB && sideB !== sideC) {
+  } else if ((sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) && (sideA == sideB && sideB !== sideC)) {
     alert("Isosceles");
-    }
-    if (sideA != sideB && sideB !== sideC) {
+  } else if ((sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) && (sideA != sideB && sideB !== sideC)) {
     alert("Scalene");
-    }
-} else {
+  } else {
   alert("These sides cannot form a triangle")
+  }
 }
-}
-</script>

@@ -1,21 +1,106 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Web page #1!</title>
-  </head>
-  <body>
-    <h1>My first web page</h1>
-    <h2>Written with the guidance of Epicodus</h2>
+<head>
+<link href="stylesheet/stylesheet.css" rel="stylesheet" type="text/css">
 
-    <p>This is my first web page!</p>
-    <p>Isn't it nice?</p>
+<script language="Javascript" type="text/javascript">
 
-    <p>Here are some things I'm going to learn about coding:</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>And a lot more!</li>
-    </ul>
-  </body>
+/*  Key/Legend
+Var
+    inp1 = input1
+    inp2 = input2
+    inp3 = input3
+    Triangle_Inputs = Form Name
+
+    */
+
+/* Notes
+
+    In computing, a parser is one of the components in an interpreter or
+    compiler that checks for correct syntax and builds a data structure
+    (often some kind of parse tree, abstract syntax tree or other hierarchical structure)
+    implicit in the input tokens.
+
+
+    Technique
+    if (side1 is equal to side2 AND side 2 is equal to side3) {equalitateral}
+
+    if (side1 is equal to side2 AND side 2 doesn't equal to side3) {isosceles}
+
+    if (side1 doesn't equal to side2 AND side2 doesn't equal to side 3 AND side 3 doesn't equal side 1) {scalene}
+
+    http://www.w3schools.com/js/js_comparisons.asp
+
+    */
+
+
+function checkinputs(sideA, sideB, sideC)
+{
+/* Var = parseInt(document.Name_Of_Element_Form.Field_Name(Input).value); */
+/* Input Fields */
+sideA = parseInt(document.getegetElementById("input1").value);
+sideB = parseInt(document.getegetElementById("input2").value);
+sideC = parseInt(document.getegetElementById("input3").value);
+/* Side options */
+  if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA){
+    if (sideA == sideB && sideB == sideC) {
+    alert("Equalateral");
+    }
+
+    if (sideA == sideB && sideB !== sideC) {
+    alert("Isosceles");
+    }
+    if (sideA != sideB && sideB !== sideC) {
+    alert("Scalene");
+    }
+} else {
+  alert("These sides cannot form a triangle")
+}
+}
+</script>
+
+
+</head>
+<body>
+<div id="Container">
+
+<div id="Header"><h1></h1></div>
+
+        <div id="Content_1">
+                <div id="Explanation">
+                This calculator will determine what
+                triangle you have made depending on
+                the integer values in the input fields.
+
+                </div>
+                <div id="Form">
+                    <FORM NAME="Triangle_Inputs" METHOD="GET">
+                    Enter the triangle values below: <br>
+                    <p>
+                    <BR>
+                    <h4>Side 1: </h4><INPUT TYPE="number" id="input1"><P>
+                    <BR>
+                    <h4>Side 2:</h4><INPUT TYPE="number" id="input2"><P>
+                     <BR>
+                    <h4>Side 3: </h4><INPUT TYPE="number" id="input3"><P>
+                    <INPUT TYPE="button" NAME="Submit" Value="Submit" Class="Submit" onClick="checkinputs()">
+                    <FORM>
+                </div>
+                <script src=js/scripts.js></script>
+
+                <div>
+                    <h2>You made a:</h2>
+                    <p>id="Verbal_Output"</p>
+                    <h2>Triangle</h2>
+                </div>
+
+            </div>
+            <p>
+            <p>
+        <div id="Content_2">
+
+        <div id="Image_Output">asdad</div>
+    <div>
+</div>
+
+</body>
 </html>

@@ -1,7 +1,3 @@
-<html>
-<head>
-<link href="stylesheet/stylesheet.css" rel="stylesheet" type="text/css">
-
 <script language="Javascript" type="text/javascript">
 
 /*  Key/Legend
@@ -57,50 +53,3 @@ sideC = parseInt(document.getegetElementById("input3").value);
 }
 }
 </script>
-
-
-</head>
-<body>
-<div id="Container">
-
-<div id="Header"><h1></h1></div>
-
-        <div id="Content_1">
-                <div id="Explanation">
-                This calculator will determine what
-                triangle you have made depending on
-                the number values in the input fields.
-
-                </div>
-                <div id="Form">
-                    <FORM NAME="Triangle_Inputs" METHOD="GET">
-                    Enter the triangle values below: <br>
-                    <p>
-                    <BR>
-                    <h4>Side 1: </h4><INPUT TYPE="number" id="input1"><P>
-                    <BR>
-                    <h4>Side 2:</h4><INPUT TYPE="number" id="input2"><P>
-                     <BR>
-                    <h4>Side 3: </h4><INPUT TYPE="number" id="input3"><P>
-                    <INPUT TYPE="button" NAME="Submit" Value="Submit" Class="Submit" onClick="checkinputs()">
-                    <FORM>
-                </div>
-                <script src=js/scripts.js></script>
-
-                <div>
-                    <h2>You made a:</h2>
-                    <p>id="Verbal_Output"</p>
-                    <h2>Triangle</h2>
-                </div>
-
-            </div>
-            <p>
-            <p>
-        <div id="Content_2">
-
-        <div id="Image_Output">asdad</div>
-    <div>
-</div>
-
-</body>
-</html>

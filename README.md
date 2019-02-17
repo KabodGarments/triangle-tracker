@@ -1,10 +1,11 @@
 # About / Synopsis
 
-* A simple Triangle Tracker application that collects user input via a form and returns the type of triangle such input creates to the user
+* A simple Triangle Tracker application created by Kabod Garments that collects user input via a form and returns the type of triangle such input creates to the user
 * Project status: working/prototype
 
 # Table of contents
 
+Access the Application here file:///home/nicholaswaweru/Desktop/triangle-tracker/index.html
 Access all the information here https://github.com/KabodGarments/triangle-tracker
 
 # Installation

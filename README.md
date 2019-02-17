@@ -6,6 +6,7 @@
 # Table of contents
 
 Access the Application here file:///home/nicholaswaweru/Desktop/triangle-tracker/index.html
+
 Access all the information here https://github.com/KabodGarments/triangle-tracker
 
 # Installation

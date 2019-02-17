@@ -1,63 +1,42 @@
 # About / Synopsis
 
-* What is it, what does it do / Abstract
+* A simple Triangle Tracker application that collects user input via a form and returns the type of triangle such input creates to the user
 * Project status: working/prototype
-* Nuxeo Support
 
 # Table of contents
 
-Use for instance https://github.com/ekalinin/github-markdown-toc
+Access all the information here https://github.com/KabodGarments/triangle-tracker
 
 # Installation
-
-Sample:
-- From the Nuxeo Marketplace: install [the Sample Nuxeo Package](https://connect.nuxeo.com/nuxeo/site/marketplace/package/nuxeo-sample).
-- From the Nuxeo server web UI "Admin / Update Center / Packages from Nuxeo Marketplace"
-- From the command line: `nuxeoctl mp-install nuxeo-sample`
-
+No need of any Installation. It is a web based application that only requires user data to be entered on the web page.
 # Usage
+The application Business logic is still under trial.
 ## Screenshots
 ## Features
-
+. Easy user interface for entering user input in the form of numbers (Integers)
+. Results are formulated and displayed on the same web page upon calculation in the background by the Business logic
 # Code
-## QA
-
-[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=addons_nuxeo-sample-project-master)](https://qa.nuxeo.org/jenkins/job/addons_nuxeo-sample-project-master/)
-
-If QA resources are included, sample: https://github.com/nuxeo/nuxeo-sdk-ios/blob/master/README.md
+Access the code via this link https://github.com/KabodGarments/triangle-tracker
 
 ## Content
-
-Description, sub-modules organization...
+The application has a Readme file, an index.html file, a java script file and a css style sheet file.
 
 ## Requirements
-
-See [CORG/Compiling Nuxeo from sources](http://doc.nuxeo.com/x/xION)
-
-Sample: https://github.com/nuxeo/nuxeo-distribution
+Access to internet connection of at least 1mbps for efficient running of the application
 
 ## Limitations
 
-Sample: https://github.com/nuxeo/nuxeo-elasticsearch/blob/master/README.md
+The application is web based
+The application only uses numbers and not scripts as user input.
 
 ## Build
-
-    mvn clean install
-
-Build options:
-- ...
+First Prototype build. V1
 
 ## Deploy (how to install build product)
-
-Direct to MP package if any. Otherwise provide steps to deploy on Nuxeo Platform: << Copy the built artifacts into `$NUXEO_HOME/templates/custom/bundles/` and activate the `custom` template. >>.
-
+Open the application via any of the web browsers, enter user input(in number format) and hit "submit"
 # Resources (Documentation and other links)
-
+Learn more about such application on https://www.w3schools.com/
 # Contributing / Reporting issues
-
-Link to JIRA component (or project if there is no component for that project).
-Sample: https://jira.nuxeo.com/browse/NXP/component/14503/
-Sample: https://jira.nuxeo.com/secure/CreateIssue!default.jspa?project=NXP
 
 # License
 

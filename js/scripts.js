@@ -1,22 +1,5 @@
 
-
-/*  Key/Legend
-Var
-    inp1 = input1
-    inp2 = input2
-    inp3 = input3
-    Triangle_Inputs = Form Name
-
-    */
-
 /* Notes
-
-    In computing, a parser is one of the components in an interpreter or
-    compiler that checks for correct syntax and builds a data structure
-    (often some kind of parse tree, abstract syntax tree or other hierarchical structure)
-    implicit in the input tokens.
-
-
     Technique
     if (side1 is equal to side2 AND side 2 is equal to side3) {equalitateral}
 

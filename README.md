@@ -46,8 +46,10 @@ Sample: https://choosealicense.com/licenses/agpl-3.0/
 
 # About The Triangle Tracker
 
-The triangle tracker is a simple arithmetic web based application that collects user input in the form of number through the User interface, makes arithmetic calculations founded
+The triangle tracker is a simple arithmetic web based application that collects user input in the form of number through the User interface, makes arithmetic calculations in the background via business logic, and finally returns information to the user regarding the type of triangle the user input that had been entered produces.
 
-Nuxeo dramatically improves how content-based applications are built, managed and deployed, making customers more agile, innovative and successful. Nuxeo provides a next generation, enterprise ready platform for building traditional and cutting-edge content oriented applications. Combining a powerful application development environment with
-SaaS-based tools and a modular architecture, the Nuxeo Platform and Products provide clear business value to some of the most recognizable brands including Verizon, Electronic Arts, Sharp, FICO, the U.S. Navy, and Boeing. Nuxeo is headquartered in New York and Paris.
-More information is available at [www.nuxeo.com](http://www.nuxeo.com).
+The user receives 4 types of answers, namely:
+1. An Isosceles Triangle,
+2. An Equilateral Triangle,
+3. A Scalene Triangle or
+4. Not a Triangle.

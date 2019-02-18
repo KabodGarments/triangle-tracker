@@ -39,10 +39,10 @@ Open the application via any of the web browsers, enter user input(in number for
 # Resources (Documentation and other links)
 Learn more about such application on https://www.w3schools.com/
 # Behavior Driven Deployment
-| First Header  | Second Header || First Header  | Second Header |
-| ------------- | ------------- ||-------------  | ------------- |
-| Content Cell  | Content Cell  ||Content cell   | content cell  |
-| Content Cell  | Content Cell  ||content cell   |content cell   |
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 # License
 
 [GNU Affero General Public License v3.0] https://choosealicense.com/licenses/agpl-3.0/
